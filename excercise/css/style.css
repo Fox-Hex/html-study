@@ -59,9 +59,10 @@ body {
 .weight {
   font-variant: small-caps;
   font-weight: bold;
-  background-color: orange;
+  background-color: #48926e;
+  color: white;
   display: inline-block;
-  padding: 0px;
+  padding: 0px 3px;
   margin: 0px;
 }
 
@@ -74,6 +75,7 @@ p {
 }
 
 .article1 {
+  margin: 20px 0px;
   column-count: 3;
   column-width: 300px;
   column-gap: 30px;
@@ -94,4 +96,48 @@ h2 {
 
 .size-70 {
   font-size: 70%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.img-holder {
+  display: inline-block;
+  border: 3px #89c2a6 solid;
+  width: 100px;
+  margin: 10px 0px;
+}
+
+table {
+  color: #fff;
+
+  background-color: #48926e;
+}
+
+td,
+th {
+  padding: 1em;
+}
+
+th {
+  text-align: left;
+  vertical-align: bottom;
+}
+
+tbody tr {
+  background-color: #3c795c;
+}
+
+fieldset {
+  width: 600px;
+  border: 2px solid #89c2a6;
 }

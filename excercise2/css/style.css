@@ -4,7 +4,7 @@ body {
 }
 
 .news-preview {
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 15px;
   display: flex;
   align-items: center;
@@ -52,3 +52,26 @@ body {
   column-count: 3;
   column-rule: 1px solid #686443;
 }
+
+.message-block {
+  box-shadow: 2px 2px 10px #424343;
+  margin-top: 100px;
+  padding: 15px;
+  border-radius: 3px;
+  background: #333333;
+  color: #81cdcd;
+
+  width: 230px;
+  line-height: 1.2em;
+  height: 4.8em;
+}
+.message-block > p {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+

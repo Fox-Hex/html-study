@@ -1,0 +1,33 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: #ffae00;
+    width: 100px;
+    height: 100px;
+    
+    padding: 5px;
+    border: 1px solid black;
+}
+.inline-block:hover {
+    position: relative;
+    top: 10px;
+}
+
+.min {
+    display: block;
+    background-color: #4da9ff;
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+}
+.min:hover {
+    position: relative;
+    left: 10px;
+}

@@ -3,9 +3,6 @@ body {
     margin: 0px;
 }
 
-div {
-}
-
 .inline-block {
     display: inline-block;
     background-color: #ffae00;
@@ -30,4 +27,22 @@ div {
 .min:hover {
     position: relative;
     left: 10px;
+}
+
+.absolute-block {
+    position: absolute;
+    top: 20px;
+    left: 0px; right: 0px;
+
+    display: inline-block;
+    background-color: #94159d;
+    color: #fff;
+    
+    padding: 5px;
+    border: 1px solid black;
+
+    transition: 1s;
+}
+.absolute-block:hover {
+    top: 100px;
 }

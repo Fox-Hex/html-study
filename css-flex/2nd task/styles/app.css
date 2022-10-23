@@ -1,0 +1,22 @@
+/* BEGIN (write your solution here) */
+body {
+  background: #594b5d;
+  font-family: sans-serif;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+}
+
+.catalog-item {
+  margin: 10px;
+  background: #76d8eb;
+  border-radius: 3px;
+
+  width: 350px;
+  text-align: center;
+}
+/* END */
